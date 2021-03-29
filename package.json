@@ -1,0 +1,24 @@
+{
+  "name": "corporate-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Maomaojunjie:3w678751q12580@github.com/Maomaojunjie/Corporate-Html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maomaojunjie/Corporate-Html/issues"
+  },
+  "homepage": "https://github.com/Maomaojunjie/Corporate-Html#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.4"
+  }
+}
