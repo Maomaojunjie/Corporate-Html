@@ -11,11 +11,106 @@ html {
     max-width: 73.125rem;
 }
 
+.text-holder h4 {
+    color: #282828;
+}
+
+.text-holder h2 {
+    color: #282828;
+    margin-top: 1rem;
+    margin-bottom: 2.25rem;
+}
+
+.text-holder p {
+    color: #8a8a8a;
+    margin-bottom: 1.875rem;
+}
+
 .widget-focus .m-bg {
     background-image: url(../assets/uploads/landing-bg-01-desktop.png);
     background-position: 50% 65%;
 }
 
+/* widget about */
+
+.widget-about .rectangle {
+    background-image: url(../assets/images/Rectangle.png);
+}
+
+/* widget features */
+
+.widget-features {
+    background-image: url(../assets/uploads/landing-bg-02-desktop.png);
+}
+
+.widget-features .features-list .features-list-item .icon-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.widget-features .features-list .features-list-item h5 {
+    font-size: 1.375rem;
+    margin-top: 1.125rem;
+    margin-bottom: .625rem;
+}
+
+.widget-features .features-list .features-list-item p {
+    color: #8a8a8a;
+}
+
+/* widget design */
+
+.widget-design {
+    background-image: url(../assets/images/Rectangle-l.png);
+}
+
+/* widget founder */
+
+.widget-founder .m-bg {
+    background-image: url(../assets/uploads/black-bg.jpg);
+}
+
+.widget-founder .container .founder-list .founder-list-item .icon-holder img {
+    width: 4.375rem;
+}
+
+/* some-awesone */
+
+.widget-some-awesone {}
+
+/* over section */
+
+.widget-over .text-holder .title {
+    color: #fff;
+}
+
+.widget-over .form-holder .m-btn::before {
+    position: absolute;
+    top: -110%;
+    right: 19%;
+    content: url(../assets/images/arrow.png);
+}
+
+.widget-over .form-holder .m-btn::after {
+    position: absolute;
+    top: -116%;
+    right: 5%;
+    color: #f6f5f3;
+    content: '30 days free trial for all.';
+}
+
+.footer {
+    background-image: url(../assets/images/Rectangle-r.png);
+    background-position: 120% 65%;
+}
+
+.footer .footer-list .footer-list-item:first-child .list-title::after {
+    position: absolute;
+    top: -7%;
+    left: 20%;
+    content: url(../assets/images/Start-Ex.png);
+}
+
 .demo {
-    font-size: 60px;
+    font-size: .0625rem;
 }
